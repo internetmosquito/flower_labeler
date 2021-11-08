@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+pytest = "*"
+flask = "*"
+pydantic = {extras = ["email"], version = "*"}
+jsonschema = "*"
+pytest-cov = "*"
+requests = "*"
+scikit-learn = "*"
+
+[dev-packages]
+flake8 = "*"
+pep8-naming = "*"
+black = "==21.8b0"
+isort = "*"
+safety = "*"
+bandit = "*"
+
+[requires]
+python_version = "3.9"

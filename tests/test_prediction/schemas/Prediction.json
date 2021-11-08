@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Prediction",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "species": {
+      "type": "string"
+    },
+    "params": {
+      "type": "string"
+    },
+    "creation": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "number"
+    }
+  },
+  "required": ["id", "species", "params", "creation", "confidence"]
+}
